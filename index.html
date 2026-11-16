@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI at the Miami Valley SBDC: Examples</title>
+<meta name="description" content="Examples of how the Miami Valley SBDC uses AI: the STRIVE Business Plan Builder, a branded client guide, and panel slides.">
+<style>
+  :root { --navy:#0E3F75; --blue:#0098D3; --teal:#69C2C6; --red:#C12637; --bg:#F3F3F5; --ink:#1F2937; --muted:#566273; --line:#D5DBE3; }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:Arial, Helvetica, sans-serif; background:var(--bg); color:var(--ink); line-height:1.5; }
+  header { background:#fff; }
+  header .wrap { display:flex; align-items:center; gap:20px; flex-wrap:wrap; padding:16px 20px; max-width:1040px; margin:0 auto; }
+  header img { height:48px; width:auto; }
+  header .t { border-left:3px solid var(--red); padding-left:14px; }
+  header .t b { display:block; color:var(--navy); font-size:18px; letter-spacing:.03em; text-transform:uppercase; }
+  header .t span { color:var(--muted); font-size:13px; }
+  .stripe { height:6px; background:linear-gradient(90deg,var(--navy) 0%,var(--blue) 40%,var(--teal) 60%,var(--red) 100%); }
+  main { max-width:1040px; margin:0 auto; padding:32px 20px 48px; }
+  h1 { color:var(--navy); font-size:30px; line-height:1.15; text-transform:uppercase; margin:0 0 10px; border-left:6px solid var(--red); padding-left:14px; }
+  .intro { color:var(--muted); font-size:17px; max-width:70ch; margin:0 0 28px; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(380px,1fr)); gap:20px; }
+  .card { background:#fff; border:1px solid var(--line); border-top:4px solid var(--blue); border-radius:4px; display:flex; flex-direction:column; overflow:hidden; }
+  .card:nth-child(2) { border-top-color:var(--red); }
+  .card:nth-child(3) { border-top-color:var(--teal); }
+  .card:nth-child(4) { border-top-color:var(--navy); }
+  .card:nth-child(5) { border-top-color:var(--red); }
+  .card img { width:100%; aspect-ratio:16/10; object-fit:cover; object-position:top left; border-bottom:1px solid var(--line); background:#fff; }
+  .card .b { padding:18px 20px 20px; display:flex; flex-direction:column; gap:8px; flex:1; }
+  .eyebrow { font-size:12px; font-weight:700; letter-spacing:.1em; text-transform:uppercase; color:var(--blue); }
+  .card h2 { margin:0; color:var(--navy); font-size:20px; }
+  .card p { margin:0; color:var(--ink); font-size:15px; }
+  .btn { margin-top:auto; align-self:flex-start; display:inline-block; background:var(--navy); color:#fff; text-decoration:none; font-weight:700; padding:10px 16px; border-radius:4px; }
+  .btn:hover, .btn:focus-visible { background:#0A3260; }
+  .btn:focus-visible { outline:2px solid var(--blue); outline-offset:2px; }
+  .note { margin-top:32px; background:#fff; border-left:4px solid var(--blue); padding:16px 20px; color:var(--muted); font-size:14px; }
+  .note a { color:var(--navy); font-weight:700; }
+  footer { border-top:1px solid var(--line); background:#fff; color:var(--muted); font-size:13px; }
+  footer .wrap { max-width:1040px; margin:0 auto; padding:16px 20px; }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <img src="assets/sbdc-horizontal.png" alt="Ohio Small Business Development Centers, Miami Valley at Entrepreneurs' Center">
+    <div class="t"><b>AI at Work: Examples</b><span>From Kim Klopfenstein&rsquo;s panel talk, Ohio SBDC statewide conference</span></div>
+  </div>
+  <div class="stripe"></div>
+</header>
+
+<main>
+  <h1>How I use AI at our center</h1>
+  <p class="intro">These are real examples from the Miami Valley SBDC, built with AI. Open them, try them, and borrow the ideas for your own center.</p>
+
+  <div class="grid">
+    <article class="card">
+      <img src="assets/strive-builder.jpg" alt="Start page of the STRIVE Business Plan Builder, with the step menu on the left">
+      <div class="b">
+        <span class="eyebrow">Web tool</span>
+        <h2>STRIVE Business Plan Builder</h2>
+        <p>A free, step-by-step business plan builder. Each step matches a STRIVE session, it does the financial projections, and it downloads the finished plan as a PDF or Word file. Work stays on the user&rsquo;s own computer.</p>
+        <a class="btn" href="https://kklopfenstein-cmd.github.io/sbdc-schema-tool/strive-business-plan-builder.html">Open the builder</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <img src="assets/cap-sample.jpg" alt="Sample capability statement for a fictional company, from the client guide">
+      <div class="b">
+        <span class="eyebrow">Branded client guide</span>
+        <h2>How to Create a Capability Statement</h2>
+        <p>A four-page MVSBDC Client Guide: the five parts of a capability statement, a step-by-step build, a checklist, and a full sample for a fictional veteran-owned company.</p>
+        <a class="btn" href="examples/MVSBDC-Guide-Capability-Statement.pdf">View the guide (PDF)</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <img src="assets/recordkeeping-workbook.jpg" alt="First page of the Recordkeeping for the Small Business participant workbook">
+      <div class="b">
+        <span class="eyebrow">Webinar workbook</span>
+        <h2>Recordkeeping for the Small Business</h2>
+        <p>An eight-page MVSBDC participant workbook for a recordkeeping webinar. Each section follows IRS Publication 583, with fill-in tables, checklists, a quick quiz and an action plan.</p>
+        <a class="btn" href="examples/MVSBDC-Workbook-Recordkeeping.pdf">View the workbook (PDF)</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <img src="assets/instagram-style-sheet.jpg" alt="Sample Instagram posts for the recordkeeping webinar in four different visual styles">
+      <div class="b">
+        <span class="eyebrow">Social media style sheet</span>
+        <h2>Instagram style sheet for the recordkeeping webinar</h2>
+        <p>Nine &ldquo;anti-AI&rdquo; visual directions for webinar posts, from risograph print to stitched felt, each with a sample post. Includes brand color rules from the Ohio SBDC brand guide and the required SBA disclaimer.</p>
+        <a class="btn" href="examples/Ohio-SBDC-Instagram-Style-Sheet.pdf">View the style sheet (PDF)</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <img src="assets/panel-slides.jpg" alt="Title slide of the panel presentation, How I Use AI at Our Center">
+      <div class="b">
+        <span class="eyebrow">Presentation</span>
+        <h2>Panel slides</h2>
+        <p>&ldquo;How I Use AI at Our Center&rdquo;: how I use AI for client advising, training, center operations and reporting, and what I&rsquo;ve learned along the way.</p>
+        <a class="btn" href="examples/How-I-Use-AI-Panel-Slides.pdf">View the slides (PDF)</a>
+      </div>
+    </article>
+  </div>
+
+  <p class="note">Questions about these examples? Contact the Ohio SBDC &ndash; Miami Valley at Entrepreneurs&rsquo; Center at <a href="https://sbdcec.com/">sbdcec.com</a>.</p>
+</main>
+
+<footer><div class="wrap">Ohio SBDC &ndash; Miami Valley at Entrepreneurs&rsquo; Center &middot; Powered by the U.S. Small Business Administration</div></footer>
+</body>
+</html>
